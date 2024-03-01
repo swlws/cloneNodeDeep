@@ -8,9 +8,21 @@
     "build:watch": "tsc -w",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "web component",
+    "clone",
+    "deep clone",
+    "html2canvas",
+    "dom-to-image",
+    "@gripeless/pico"
+  ],
+  "author": "swlws",
+  "homepage": "https://github.com/swlws/cloneNodeDeep",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swlws/cloneNodeDeep"
+  },
+  "license": "MIT",
   "devDependencies": {
     "del": "^7.1.0",
     "del-cli": "^5.1.0",
